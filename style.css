@@ -1,0 +1,221 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#fff8f0;
+color:#333;
+}
+
+/* HEADER */
+header{
+background:#8b0000;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+header h1{
+font-size:24px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+/* HERO */
+.hero{
+background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200') center/cover;
+height:400px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h2{
+font-size:48px;
+background:rgba(0,0,0,0.5);
+padding:10px 20px;
+border-radius:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+background:rgba(0,0,0,0.5);
+padding:8px 15px;
+border-radius:8px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+background:#ff9900;
+border:none;
+color:white;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#e68a00;
+}
+
+/* SECTION */
+.section{
+padding:40px 30px;
+text-align:center;
+}
+
+.section h2{
+font-size:32px;
+margin-bottom:20px;
+color:#8b0000;
+}
+
+/* MENU */
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+width:260px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+overflow:hidden;
+padding-bottom:15px;
+}
+
+.card img{
+width:100%;
+height:170px;
+object-fit:cover;
+}
+
+.card h3{
+margin:12px 0 5px;
+}
+
+.card p{
+color:#666;
+font-size:14px;
+padding:0 10px;
+}
+
+.price{
+color:#8b0000;
+font-weight:bold;
+font-size:18px;
+margin:8px 0;
+}
+
+.card button{
+background:#8b0000;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.card button:hover{
+background:#a30000;
+}
+
+/* CART */
+#cart{
+background:#fff3e0;
+padding:25px;
+border-radius:12px;
+max-width:500px;
+margin:20px auto;
+text-align:left;
+}
+
+#cart ul{
+list-style:none;
+}
+
+#cart li{
+display:flex;
+justify-content:space-between;
+padding:8px 0;
+border-bottom:1px solid #ddd;
+}
+
+#total{
+font-weight:bold;
+font-size:20px;
+text-align:right;
+margin-top:10px;
+}
+
+#orderBtn{
+width:100%;
+padding:12px;
+background:green;
+color:white;
+border:none;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+margin-top:10px;
+}
+
+/* FORM */
+form{
+max-width:500px;
+margin:0 auto;
+text-align:left;
+}
+
+input, select{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+form button{
+width:100%;
+padding:12px;
+background:#8b0000;
+color:white;
+border:none;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
